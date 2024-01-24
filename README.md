@@ -1,6 +1,4 @@
-# sei project 3 - Pokézon
-
-You can check out the site [here](https://danielfda.github.io/sei-project-3/)
+# Pokézon
 
 ## Index
 * [Overview](#overview)
@@ -27,7 +25,7 @@ This project was half-way into the course and was the biggest one in terms of ti
 
 First we need to download the repository into our own machine for which we have to input the following line into our terminal or command line:
 ```bash 
-git clone https://github.com/DanielFDA/sei-project-3.git
+git clone https://github.com/DanielFDA/pokezon.git
 ```
 
 then we need to make sure [mongoDB](https://www.mongodb.com/try/download/community) is installed and running, for which we run the following command 
@@ -36,7 +34,7 @@ mongod --dbpath ~/data/db
 ```
 then you'll need to install dependencies in the command line or terminal, making sure you're inside the root of the project. The address on the terminal should look something like this
 ```bash 
-~/GA/development/PROJECTS/sei-project-3
+~/GA/development/PROJECTS/pokezon
 ``` 
 to install back-end dependencies, in the root of the project (folder) run `yarn`
 
@@ -44,7 +42,7 @@ then to install front-end dependencies we'll have to change folder and install f
 ```bash 
 cd client && yarn
 ``` 
-if it's our first time runnig the project on this computer we'll have to seed the database, to go back to the root of the project type `..` in the terminal or command line and make sure theres nothing after `sei-project-3`, then we run the following
+if it's our first time runnig the project on this computer we'll have to seed the database, to go back to the root of the project type `..` in the terminal or command line and make sure theres nothing after `pokezon`, then we run the following
 ```bash 
 yarn seed
 ``` 
@@ -71,6 +69,7 @@ yarn dev-fullstack
 * Google Sheets
 * VSCode
 
+
 ## Approach
 
 The first thing we did for this project after discussing and coming with the idea of cloning Amazon was to draw a mock up and talk about all the features that we thought were mandatory for the site to be deployed. The mock up looked like this (this was done by Masa, in fact almost all the styling on this app was done by this genius of CSS and great friend)
@@ -86,7 +85,6 @@ Then due to the app having lots of features we had to split tasks in order to be
 <p align="center" width="100%">
     <img width="95%" src="client/src/assets/trello.png"> 
 </p>
-
 
 
 ### Explanations
@@ -456,6 +454,7 @@ This is how the form would look if there's any errors while inputting the data.
 
 All the errors would be evaluated as the user inputted them in order to show everything smoothly and to avoid the user submitting the form without having valid values.
 
+
 ### Thoughts
 
 This was a really huge and complicated project, but that only made it so we all learned tons, because at this point of the course we were all pretty comfortable researching and learning as we went so we could implement what we wanted for all the features, even with this we couldn't finish all the features that we set out to do because of not having enough time, so we had to keep some of them hidden from the deployed site.
@@ -463,6 +462,7 @@ This was a really huge and complicated project, but that only made it so we all 
 I think everyone on team agrees that this project was a huge win and learning for us, and the fact that it ran smoothly and with very few bugs/core features missing was terrific for me.
 
 Have to say that I enjoyed a lot working with both Masa and Christian on this project they both had a lot of insight and inspired me to work harder and better in order to make this site the best we could.
+
 
 ## Conclusion
 
